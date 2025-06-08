@@ -8,7 +8,7 @@ export const Projects = () => {
       tech: ["React", "Tailwind CSS"],
       link: "https://github.com/moromoke01/ecommerce-task5",
       demo: "https://ecommerce-one-alpha-73.vercel.app/",
-      image: "./src/assets/e-commerce.png"
+      image: "../src/assets/e-commerce.png"
     },
     {
       title: "Medprompt (HealthTech)",
@@ -16,7 +16,7 @@ export const Projects = () => {
       tech: ["React", "nodejs", "Material-UI", "Redux"],
       link: "https://github.com/moromoke01/virtualHealthConsultation",
       demo: "https://virtual-health-consultation.vercel.app/",
-      image: "./src/assets/health-site.png"
+      image: "../src/assets/health-site.png"
     },
     {
       title: "Farm link(AgricTech)",
@@ -24,7 +24,7 @@ export const Projects = () => {
       tech: ["React", "Tailwind CSS", "Chartjs"],
       link: "https://github.com/moromoke01/farmlink-fe-int",
       demo: "https://farmlink-fe-int.vercel.app/",
-      image: "./src/assets/farm-link.png"
+      image: "../src/assets/farm-link.png"
     },
     {
       title: "Admin Dashboard",
@@ -32,7 +32,7 @@ export const Projects = () => {
       tech: ["React", "Tailwind CSS", "Chartjs"],
       link: "https://github.com/moromoke01/admin-dasboard",
       demo: "https://admin-dasboard-nu.vercel.app/",
-      image: "./src/assets/admin-dashboard.png"
+      image: "../src/assets/admin-dashboard.png"
     }, 
     {
       title: "Meal Planner App",
@@ -40,7 +40,7 @@ export const Projects = () => {
       tech: ["React", "Vite", "Tailwind CSS"],
       link: "https://github.com/moromoke01/c8Project",
       demo: "https://c8-project.vercel.app/",
-      image: "./src/assets/mealpal.png"
+      image: "../src/assets/mealpal.png"
     },
     {
       title: "Internship Recommendation",

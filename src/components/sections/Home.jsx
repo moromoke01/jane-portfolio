@@ -1,3 +1,5 @@
+import img1 from "../../assets/jane-pic.jpg";
+
 export const Home = () =>{
     return (
         <section id="home" className="min-h-screen flex items-center pb-10 mb-15 justify-center relative">
@@ -6,7 +8,7 @@ export const Home = () =>{
                     <div className="max-w-6xl mx-auto">
                         <div className="text-center">
                             <div className="relative inline-block mt-15 mb-0">
-                                <img src="./src/assets/jane-pic.jpg" 
+                                <img src={img1}
                                 alt="headshot"
                                 className=" w-48 h-48 rounded-full mx-auto object-cover shadow-2xl border-4 border-purple-400"/>
                                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-700 to-blue-400 opacity-20 animate-pulse"></div>
