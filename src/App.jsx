@@ -8,12 +8,20 @@ import { Home } from './components/sections/Home';
 import { About } from './components/sections/About';
 import { Projects } from './components/sections/Projects';
 import { Contact } from './components/sections/Contact';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import {useEffect} from 'react'
 
 function App() {
   const [isloaded, setisloaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 
-  return <>
+  useEffect(()=> {
+    // Initialize AOS (Animate On Scroll) library
+    AOS.init({ duration: 800, once:true})
+  }, []);
+
+   return <>
      {!isloaded && <LoadingScreen onComplete={() => setisloaded(true)}/>} {" "}
       <div className= {`min-h-screen transition-opacity duration-700 ${isloaded ? "opacity-100" : "opacity-0"} bg-black text-gray-100`}>
 

@@ -6,6 +6,7 @@ export const About = () => {
   return (
     <section
       id="#about"
+      data-aos='fade-up'
       className="min-h-screen flex items-center justify-center py-5"
     >
       <div className="max-w-3xl mx-auto px-4">

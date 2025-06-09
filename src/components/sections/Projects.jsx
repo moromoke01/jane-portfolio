@@ -1,4 +1,9 @@
 import { ExternalLink, Github } from 'lucide-react';
+import ecommerceImg from '../../assets/e-commerce.png';
+import healthImg from '../../assets/health-site.png';
+import farmImg from '../../assets/farm-link.png';
+import adminImg from '../../assets/admin-dashboard.png';
+import mealpalImg from '../../assets/mealpal.png';
 
 export const Projects = () => {
   const myProjects = [
@@ -8,7 +13,7 @@ export const Projects = () => {
       tech: ["React", "Tailwind CSS"],
       link: "https://github.com/moromoke01/ecommerce-task5",
       demo: "https://ecommerce-one-alpha-73.vercel.app/",
-      image: "../src/assets/e-commerce.png"
+      image: ecommerceImg
     },
     {
       title: "Medprompt (HealthTech)",
@@ -16,7 +21,7 @@ export const Projects = () => {
       tech: ["React", "nodejs", "Material-UI", "Redux"],
       link: "https://github.com/moromoke01/virtualHealthConsultation",
       demo: "https://virtual-health-consultation.vercel.app/",
-      image: "../src/assets/health-site.png"
+      image: healthImg
     },
     {
       title: "Farm link(AgricTech)",
@@ -24,7 +29,7 @@ export const Projects = () => {
       tech: ["React", "Tailwind CSS", "Chartjs"],
       link: "https://github.com/moromoke01/farmlink-fe-int",
       demo: "https://farmlink-fe-int.vercel.app/",
-      image: "../src/assets/farm-link.png"
+      image: farmImg
     },
     {
       title: "Admin Dashboard",
@@ -32,7 +37,7 @@ export const Projects = () => {
       tech: ["React", "Tailwind CSS", "Chartjs"],
       link: "https://github.com/moromoke01/admin-dasboard",
       demo: "https://admin-dasboard-nu.vercel.app/",
-      image: "../src/assets/admin-dashboard.png"
+      image: adminImg
     }, 
     {
       title: "Meal Planner App",
@@ -40,7 +45,7 @@ export const Projects = () => {
       tech: ["React", "Vite", "Tailwind CSS"],
       link: "https://github.com/moromoke01/c8Project",
       demo: "https://c8-project.vercel.app/",
-      image: "../src/assets/mealpal.png"
+      image: mealpalImg
     },
     {
       title: "Internship Recommendation",
@@ -52,7 +57,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="min-h-screen flex items-center justify-center py-20">
+    <section id="projects" className="min-h-screen flex items-center justify-center py-20" data-aos='fade-up'>
       <div className="max-w-5xl mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-blue-400 bg-clip-text text-transparent text-center">
           Featured Projects
@@ -72,7 +77,7 @@ export const Projects = () => {
     />
   )}
               <div className="mb-4">
-                <h3 className="text-xl font-bold text-gray-900 group-hover:text-purple-600 transition-colors">
+                <h3 className="text-xl font-bold text-white-500/10 group-hover:text-purple-600 transition-colors">
                   {project.title}
                 </h3>
                 <p className="text-gray-600 group-hover:text-purple-500 transition-colors mt-2">
