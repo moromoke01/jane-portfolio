@@ -1,6 +1,6 @@
 import { ExternalLink, Github } from 'lucide-react';
 import ecommerceImg from '../../assets/e-commerce.png';
-import healthImg from '../../assets/health-site.png';
+import healthImg from '../../assets/MedIT.png';
 import farmImg from '../../assets/farm-link.png';
 import adminImg from '../../assets/admin-dashboard.png';
 import mealpalImg from '../../assets/mealpal.png';
@@ -26,17 +26,17 @@ export const Projects = () => {
       image: farmImg
     },
     {
-      title: "Medprompt (HealthTech)",
+      title: "MedIT (HealthTech)",
       description: "A medical appointment scheduling web app.",
       tech: ["React", "nodejs", "Material-UI", "Redux"],
-      link: "https://github.com/moromoke01/virtualHealthConsultation",
-      demo: "https://virtual-health-consultation.vercel.app/",
+      link: "https://github.com/moromoke01/medit_app",
+      demo:  "https://medit-app-a4ee.vercel.app/",
       image: healthImg
     },
     {
       title: "Raybow-sweet-treats",
       description: "A sweet treat platform for managing bakery orders.",
-      tech: ["React", "Tailwind CSS", "Chartjs"],
+      tech: ["Reactjs", "Tailwind CSS", "supabase"],
       link: "https://github.com/moromoke01/raybow-sweet-treat",
       demo: "https://raybow-sweet-treats.vercel.app/",
       image: raynbowImg
