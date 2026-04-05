@@ -4,6 +4,8 @@ import healthImg from '../../assets/health-site.png';
 import farmImg from '../../assets/farm-link.png';
 import adminImg from '../../assets/admin-dashboard.png';
 import mealpalImg from '../../assets/mealpal.png';
+import raynbowImg from '../../assets/raybowCake.png';
+import skillinno8Img from '../../assets/skill-innov8.png';
 
 export const Projects = () => {
   const myProjects = [
@@ -16,14 +18,6 @@ export const Projects = () => {
       image: ecommerceImg
     },
     {
-      title: "Medprompt (HealthTech)",
-      description: "A medical appointment scheduling web app.",
-      tech: ["React", "nodejs", "Material-UI", "Redux"],
-      link: "https://github.com/moromoke01/virtualHealthConsultation",
-      demo: "https://virtual-health-consultation.vercel.app/",
-      image: healthImg
-    },
-    {
       title: "Farm link(AgricTech)",
       description: "A platform connecting farmers with resources and markets (team work).",
       tech: ["React", "Tailwind CSS", "Chartjs"],
@@ -32,12 +26,20 @@ export const Projects = () => {
       image: farmImg
     },
     {
-      title: "Admin Dashboard",
-      description: "Admin dashboard showing sales flow.",
+      title: "Medprompt (HealthTech)",
+      description: "A medical appointment scheduling web app.",
+      tech: ["React", "nodejs", "Material-UI", "Redux"],
+      link: "https://github.com/moromoke01/virtualHealthConsultation",
+      demo: "https://virtual-health-consultation.vercel.app/",
+      image: healthImg
+    },
+    {
+      title: "Raybow-sweet-treats",
+      description: "A sweet treat platform for managing bakery orders.",
       tech: ["React", "Tailwind CSS", "Chartjs"],
-      link: "https://github.com/moromoke01/admin-dasboard",
-      demo: "https://admin-dasboard-nu.vercel.app/",
-      image: adminImg
+      link: "https://github.com/moromoke01/raybow-sweet-treat",
+      demo: "https://raybow-sweet-treats.vercel.app/",
+      image: raynbowImg
     }, 
     {
       title: "Meal Planner App",
@@ -52,8 +54,17 @@ export const Projects = () => {
       description: "A modern, responsive portfolio website connecting students with industries.",
       tech: ["Html", "css", "js"],
       link: "https://github.com/moromoke01/Skill-Innov8",
-      demo: "https://skill-innov8.vercel.app/"
-    }
+      demo: "https://skill-innov8.vercel.app/",
+      image: skillinno8Img
+    },
+    {
+      title: "Admin Dashboard",
+      description: "Admin dashboard showing sales flow.",
+      tech: ["React", "Tailwind CSS", "Chartjs"],
+      link: "https://github.com/moromoke01/admin-dasboard",
+      demo: "https://admin-dasboard-nu.vercel.app/",
+      image: adminImg
+    }, 
   ];
 
   return (
