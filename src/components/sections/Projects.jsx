@@ -5,7 +5,7 @@ import farmImg from '../../assets/farm-link.png';
 import adminImg from '../../assets/admin-dashboard.png';
 import mealpalImg from '../../assets/mealpal.png';
 import raynbowImg from '../../assets/raybowCake.png';
-import skillinno8Img from '../../assets/skill-innov8.png';
+import skillinnov8Img from '../../assets/skill-innov8.png';
 
 export const Projects = () => {
   const myProjects = [
@@ -55,7 +55,7 @@ export const Projects = () => {
       tech: ["Html", "css", "js"],
       link: "https://github.com/moromoke01/Skill-Innov8",
       demo: "https://skill-innov8.vercel.app/",
-      image: skillinno8Img
+      image: skillinnov8Img
     },
     {
       title: "Admin Dashboard",
